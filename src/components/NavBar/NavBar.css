@@ -1,0 +1,26 @@
+.hacker-new-navr-bar{
+    background-color: #ff6600;
+    justify-content: center;
+}
+
+.hacker-new-navr-bar a{
+    color: #ffffff;
+}
+
+.f-left{
+    float: left;
+}
+
+@media (min-width : 200px) and (max-width : 720px){
+    .hacker-new-navr-bar{
+        justify-content: left !important;
+    }
+}
+
+nav a{
+    color: black !important;
+}
+
+nav a:hover, a.active{
+    color: #ffffff !important;
+}

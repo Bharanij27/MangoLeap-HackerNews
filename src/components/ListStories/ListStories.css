@@ -1,0 +1,18 @@
+.stories {
+  margin: 30px 0;
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  background-color: inherit;
+}
+
+.stories ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.story-conatiner, .nav-btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
