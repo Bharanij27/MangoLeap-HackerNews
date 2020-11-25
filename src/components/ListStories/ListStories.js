@@ -45,7 +45,9 @@ const ListStories = ({ type }) => {
                     <div className="stories">
                         <ul>
                             {stories.map((story) => {
-                                if(story) return <Story key={story.id} story = {story}/>}
+                                if(story) return <Story key={story.id} story = {story}/>
+                                return '';
+                                }
                             )}
                         </ul>
                     </div>
